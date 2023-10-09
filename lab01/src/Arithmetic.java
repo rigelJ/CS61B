@@ -20,8 +20,9 @@ public class Arithmetic {
      * @return Sum of a and b
      * */
     public static int sum(int a, int b) {
-        return a * b;
+        return a + b;
     }
+
 
     public static void main(String[] args) {
         System.out.println("Give me a number! (no decimals, please)");
