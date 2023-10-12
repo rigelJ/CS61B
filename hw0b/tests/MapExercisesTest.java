@@ -17,7 +17,6 @@ public class MapExercisesTest {
     @DisplayName("Test letterToNumber correctness")
     public void testLetterToNum() {
         Map<Character, Integer> map = MapExercises.letterToNum();
-
         assertThat(map.size()).isEqualTo(26);
         for (int i = 0; i < 26; i++) {
             assertThat(map.get((char) ('a' + i))).isEqualTo(i + 1);
