@@ -10,6 +10,7 @@ public class AoAGame {
     private static final String DICTIONARY_FILE = "data/example.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
+        //initial
         System.out.println("Welcome to the Awakening of Azathoth.");
         System.out.println();
 
