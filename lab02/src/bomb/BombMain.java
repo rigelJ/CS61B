@@ -11,13 +11,19 @@ public class BombMain {
         // TODO: Find the correct passwords to each phase using debugging techniques
         Bomb b = new Bomb();
         if (phase >= 0) {
-            b.phase0("Figure this out. I wonder where the phases are defined...");
+            b.phase0("39291226");
         }
         if (phase >= 1) {
-            b.phase1(null); // Figure this out too
+            IntList correctlist= IntList.of(0,9,3,0,8);
+            b.phase1(correctlist); // Figure this out too
         }
         if (phase >= 2) {
-            b.phase2("Figure this out. I wonder where the phases are defined...");
+            String s = "-81201430";
+            String all = "start";
+            for(int i=0;i<2000;i++){
+                all = all + " " + s;
+            }
+            b.phase2(all);
         }
     }
 }
